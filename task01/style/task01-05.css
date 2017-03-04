@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 750px;
+    background-color: #DEDEDE;
+}
+header, footer {
+	height: 60px;
+	background-color: #333;
+	overflow: hidden;
+}
+nav {
+    margin: 10px 5%;
+    overflow: hidden;
+}
+nav img {
+	float: left;
+	height: 40px;
+}
+nav ul {
+    float: right;
+    margin: 0;
+    line-height: 40px;
+}
+nav li {
+	display: inline-block;
+    margin-left: 10px;
+	list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    position: relative;
+}
+main {
+    margin: 30px 460px 30px 30px;
+}
+article {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 2px 2px 2px #CBCBCB;
+}
+article img {
+    width: 100%;
+    max-width: 300px;
+}
+article h3 {
+    color: #676767;
+}
+article h3 + p {
+    color: #6a6a6a;
+}
+article ul {
+    list-style: none;
+}
+.image-text {
+    float: left;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #CBCBCB;
+}
+.image-text img {
+    width: 130px;
+}
+.image-text p {
+    text-align: center;
+}
+article table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+article th {
+    border: 1px solid #d4d4d4;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+}
+article td {
+    border: 1px solid #d4d4d4;
+    padding: 5px;
+}
+article tr:last-child {
+    background-color: #ccc;
+    color: #000;
+}
+article:nth-child(3) {
+    overflow: hidden;
+}
+aside {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    width: 398px;
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 2px 2px 2px #CBCBCB;
+}
+aside h2 {
+    padding: 10px;
+    margin: 20px;
+    border-left: 5px solid #cbcbcb;
+    font-size: 16px;
+}
+form {
+    width: 80%;
+    margin: 0 auto 20px;
+    padding:0 10%;
+    font-size: 14px;
+    line-height: 2.5;
+}
+form label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+    text-align: right;
+    vertical-align: top;
+}
+
+form span {
+    display: inline-block;
+    margin-left: 125px;
+    font-size: 14px;
+    color: #5F5F5F;
+}
+form textarea {
+    height: 100px;
+    width: 175px;
+}
+input[type="submit"] {
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #3355d0;
+    border-radius: 6px;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+}
