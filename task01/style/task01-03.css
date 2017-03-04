@@ -1,0 +1,105 @@
+img {
+    width: 80px;
+    height: 80px;
+}
+.method {
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: hidden;
+}
+#method-one {
+    padding: 20px 162px 20px 242px;
+}
+.des, .brief, .pic {
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.brief img {
+    float: left;
+    margin-right: 20px;
+}
+.des p {
+    text-indent: 2em;
+}
+#method-one .des {
+    float: left;
+    padding: 20px;
+}
+#method-one .brief {
+    position: relative;
+    left: -222px;
+    float: left;
+    margin-left: -100%;
+    width: 160px;
+}
+#method-one .pic {
+    float: left;
+    position: relative;
+    right: -142px;
+    margin-left: -122px;
+    width: 80px;
+}
+
+#method-two {
+    padding: 20px;
+}
+#method-two .des {
+    float: left;
+    margin-left: 222px;
+    margin-right: 142px;
+    padding: 20px;
+}
+#method-two .brief {
+    float: left;
+    margin-left: -100%;
+    width: 160px;
+}
+#method-two .pic {
+    float: left;
+    margin-left: -122px;
+    width: 80px;
+}
+
+#method-three {
+    padding: 20px;
+}
+#method-three .des {
+    float: left;
+    background-color: #eee;
+    padding: 0;
+    border: none;
+}
+#method-three .brief {
+    float: left;
+    margin-left: -100%;
+    width: 158px;
+}
+#method-three .pic {
+    float: left;
+    margin-left: -120px;
+    width: 78px;
+}
+.des-content {
+    margin: 0 140px 0 220px;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #fff;
+
+}
+#method-four {
+    display: flex;
+    padding: 20px;
+}
+#method-four .brief {
+    width: 158px;
+    /*flex: none;*/
+}
+#method-four .des {
+    margin: 0 20px;
+    flex: 1;
+}
+#method-four .pic {
+    width: 78px;
+    /*flex: none;*/
+}
