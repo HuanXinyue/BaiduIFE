@@ -8,7 +8,7 @@
     width: 980px;
     height: 1386px;
     margin: 0 auto;
-    box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 0 0 2px #ccc;
 }
 header {
     position: relative;
@@ -307,6 +307,9 @@ h2.zh {
     right: -10px;
 }
 footer {
+    width: 892px;
+    margin-right: auto;
+    margin-left: auto;
     height: 61px;
     border-top: 2px solid #938e8c;
 }
