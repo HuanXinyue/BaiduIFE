@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+#newspaper {
+    width: 980px;
+    height: 1386px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px #ccc;
+}
+header {
+    position: relative;
+    width: 892px;
+    margin: 0 auto;
+    border-bottom: 2px solid #938e8c;
+}
+header p {
+    position: relative;
+    width: 110px;
+    height: 61px;
+    font-family: SimHei, serif;
+    color: #fff;
+    background-color: #d55f5b;
+}
+header span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+header time {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: SimHei, serif;
+    color: #d45d5c;
+}
+section {
+    width: 892px;
+    margin: 35px auto;
+}
+.top {
+    position: relative;
+    height: 301px;
+}
+.focus-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 641px;
+    margin-right: 48px;
+}
+.focus-map .shadow {
+    position: absolute;
+    width: 191px;
+    height: 301px;
+}
+.focus-map .left {
+    top:0;
+    left: 0;
+    background-color: #428c59;
+    opacity: 0.5;
+}
+.focus-map .right {
+    top: 0;
+    right: 0;
+    background-color: #d55f5b;
+    opacity: 0.5;
+}
+.top .about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 203px;
+    border-top: 2px solid #cc8091;
+}
+.about h1 {
+    margin-top: 10px;
+    font: 24px/40px "Microsoft YaHei UI";
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.about h1 span {
+    font-size: 28px;
+}
+.about .intro {
+    font: italic 12px/10px KaiTi;
+    color: #676767;
+    text-transform: lowercase;
+}
+.about .intro:first-letter {
+    text-transform: uppercase;
+}
+.about .num1 {
+    font: oblique 100px "Microsoft YaHei UI";
+    color: #75b86b;
+}
+.about .num2 {
+    float: left;
+    margin-right: 10px;
+    font: 55px "Microsoft YaHei UI";
+    color: #cc8091;
+}
+.about p:last-child {
+    margin-top: 15px;
+    font: 12px "Microsoft YaHei UI";
+    color: #bdbdbd;
+}
+.about p span {
+    font: 21px "Microsoft YaHei UI";
+    color: #cc8091;
+}
+.middle:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.middle div {
+    float: left;
+    margin-right: 30px;
+}
+.middle h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    text-decoration: underline;
+}
+.middle .what {
+    width: 230px;
+    font-family: SimHei, serif;
+    color: #767777;
+}
+.middle .what h3 {
+    color: #418c59;
+}
+.middle .when {
+    width: 200px;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    color: #231815;
+    opacity: 0.7;
+}
+.middle .when h3 {
+    color: #d2994f;
+}
+.middle .how {
+    width: 150px;
+}
+.middle .how h3 {
+    color: #cc7680;
+}
+.middle .how p {
+    font-family: "Microsoft YaHei UI", sans-serif;
+    color: #767777;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.middle p.percent {
+    letter-spacing: normal;
+}
+.middle .percent span {
+    font-style: oblique;
+    color: #cd4a48;
+    opacity: 0.7;
+}
+.bottom {
+    margin-top: 75px;
+    overflow: hidden;
+}
+.detail{
+    margin-right: 480px;
+}
+.detail h2 {
+    margin-bottom: 20px;
+    font-family: SimHei, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #11456b;
+}
+h2.en {
+    font-size: 42px;
+}
+h2.en span {
+    font: italic 72px SimHei;
+    color: #f5e327;
+}
+h2.zh {
+    font-size: 33px;
+}
+.detail .content {
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-top: 20px;
+    border-top: 2px solid #11456b;
+    font-family: SimHei, serif;
+    text-indent: 2em;
+    color: #767777;
+}
+.detail .content:first-letter {
+    float: left;
+    font: 70px "Microsoft YaHei UI";
+    color: #f5e327;
+}
+.content p:first-child {
+    text-indent: 0;
+}
+.content img {
+    float: right;
+}
+.other {
+    float: right;
+    margin-left: 15px;
+}
+.other .sub-pic {
+    position: relative;
+    width: 460px;
+    height: 257px;
+    margin-bottom: 40px;
+    background-image: url(../images/task_1_6_2.jpg);
+}
+.sub-pic .text {
+    position: absolute;
+    bottom: 0;
+    width: 458px;
+    height: 64px;
+    background-color: #000;
+    opacity: 0.5;
+}
+.sub-pic p {
+    height: 34px;
+    margin: 10px 40px;
+    padding: 5px 20px;
+    border-left: 3px solid #72b16a;
+    font: oblique 12px "Microsoft YaHei UI";
+    color: #72B16A;
+}
+.sub-pic p span {
+    font: 26px "Microsoft YaHei UI";
+    color: #fff;
+}
+.bottom .unknown {
+    overflow: hidden;
+    background-color: #EEEED6;
+}
+.bottom .unknown li {
+    list-style-image: url("../images/list-icon.png");
+    font: 16px "宋体";
+    color: #5a5b5b;
+    padding: 20px 0 0;
+}
+.unknown li span {
+    float: right;
+    text-align: right;
+    font-style: oblique;
+    font-size: 12px;
+}
+.unknown ul {
+    padding: 0 30px 30px 50px;
+}
+.zero {
+    width: 260px;
+    height: 160px;
+    background-color: #d45d5c;
+    color: #fff;
+}
+.p0 {
+    margin-left: 10px;
+    line-height: 160px;
+    font: 110px "Microsoft YaHei";
+}
+.p1 {
+    display: inline-block;
+    padding: 5px 0 5px 5px ;
+    width: 170px;
+    font: oblique 21px "黑体";
+    border-left: 2px solid #fff;
+}
+.p1 span {
+    text-transform: lowercase;
+    font: normal 12px "黑体";
+}
+.quote {
+    float: right;
+    padding: 10px;
+    width: 175px;
+    font: 14px "黑体";
+    color: #5a5b5b;
+    line-height: 16px;
+}
+.quote span {
+    font-size: 72px;
+    color: #d45d5c;
+}
+.sp1 {
+    float: left;
+    position: relative;
+    left: -40px;
+    top: 10px;
+}
+.sp2 {
+    float: right;
+    position: relative;
+    bottom: -30px;
+    right: -10px;
+}
+footer {
+    height: 61px;
+    border-top: 2px solid #938e8c;
+}
+footer span {
+    float: right;
+    color: #d45d5c;
+    font-family: "黑体", sans-serif;
+}
